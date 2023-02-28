@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box !important;
+  margin:0;
+  padding:0;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  font-size:17px;
+  color:white;
+  line-height:1;
+}
+
+#showcase{
+  background-image:url('bg.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+#showcase h1{
+  font-size:250px;
+  font-family: Brush Script MT;
+  font-weight:bold;
+  color:white;
+  line-height:1;
+  margin-top:-150px;
+  margin-left:-40px;
+}
+
+#showcase h2{
+  font-size:50px;
+  font-family: Century Schoolbook;
+  color:white;
+  line-height:0.5;
+}
+
+#showcase p{
+  font-size:15px;
+  font-family: Century Schoolbook;
+  color:white;
+}
+
+#showcase .button{
+  font-size:18px;
+  font-family: Century Schoolbook;
+  text-decoration:none;
+  color:white;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:white;
+  color:black;
+}
+
+.navi {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.nav {
+   height: 65px;
+}
+
+ul {
+  margin-bottom: 50px;	
+  margin: 350px;
+  width: 650px;
+  list-style: none;
+  background: white;
+}
+
+li {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: Century Schoolbook;
+  font-weight: lighter;
+  font-size: 15px;
+  transition: 1s;
+  padding: 25px 30px;
+}
+
+li a:hover {
+	transition: 1s;
+	background: #FFC519;
+	color: white;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #28231E;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+	background-color: #28231E;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: -10px;
+  text-align: center;
+  background-color: #28231E;
+}
+
+.padd_leri0 {
+     padding-left: 0;
+     padding-right: 0;
+}
+
+.contact .titlepage h2 {
+     padding-bottom: 10px;
+     color: #fff;
+}
+
+.contact .titlepage span {
+     background-color: #232323;
+}
+
+.contact .titlepage strong {
+     border-top: #fff solid 0px;
+}
+
+.contact {
+     padding: 90px 0;
+     background-image:url('sea.jpg');
+	 margin-top:10px;
+}
+
+.main_form {
+     padding: 50px 50px;
+     background: #fff;
+}
+
+.contact .main_form .contactus {
+     border: inherit;
+     padding: 0px 19px;
+     margin-bottom: 20px;
+     width: 100%;
+     height: 60px;
+     background: #81ABD3;
+     color: black;
+     font-size: 17px;
+}
+
+.contact .main_form .textarea {
+     border: inherit;
+     padding: 11px 19px;
+     padding-top: 48px;
+     margin-bottom: 20px;
+     width: 100%;
+     background: #81ABD3;
+     color: black;
+     font-size: 17px;
+}
+
+.contact .main_form .send_btn {
+     font-size: 17px;
+	 border:1px;
+     transition: ease-in all 0.5s;
+     background-color: #81ABD3;
+     color: black;
+     padding: 13px 0px;
+     margin: 0 auto;
+     display: block;
+     margin-top: 30px;
+     max-width: 200px;
+     text-transform: uppercase;
+     width: 100%;
+}
+
+.contact .main_form .send_btn:hover {
+     background-color: #3A7ABA;
+     transition: ease-in all 0.5s;
+     color: white;
+     border-radius: 26px;
+}
+
+#contact *::placeholder {
+     color: black;
+     opacity: 1;
+}
